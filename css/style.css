@@ -61,7 +61,12 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-h1 {
+header {
 	color: #00FF00;
 	text-align: center;
+	background-color: #333333;
+}
+
+h1 {
+	display: inline;
 }
