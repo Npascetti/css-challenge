@@ -70,3 +70,7 @@ header {
 h1 {
 	display: inline;
 }
+
+ol {
+	list-style-position:inside
+}
