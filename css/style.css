@@ -96,3 +96,7 @@ table, td, th {
 	border: 2px solid white;
 
 }
+
+html {
+	font-family: 'Cousine', monospace;
+}
