@@ -97,6 +97,10 @@ table, td, th {
 
 }
 
+td, th {
+	text-align: left;
+}
+
 html {
 	font-family: 'Cousine', monospace;
 }
