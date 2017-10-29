@@ -84,8 +84,15 @@ table {
 	background-color: #333333;
 	color: #0EFF00;
 	width: 100%;
+	border-collapse: collapse;
+
 }
 /******h2 element above table, aligned right********/
 body > div > section:nth-child(4) > div > h2 {
 	float: right;
+}
+
+table, td, th {
+	border: 2px solid white;
+
 }
