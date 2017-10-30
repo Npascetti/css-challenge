@@ -104,3 +104,7 @@ td, th {
 html {
 	font-family: 'Cousine', monospace;
 }
+
+.instructions-wrapper {
+	border: 5px solid black
+}
