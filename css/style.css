@@ -115,3 +115,8 @@ html {
 body > div > section.about-me > div {
 	background-color: #0000FF;
 }
+
+footer {
+	background-color: #000;
+	color: #FFF;
+}
