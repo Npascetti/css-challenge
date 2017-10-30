@@ -116,6 +116,7 @@ html {
 /*********div containing picard pic and day in the life section*********/
 body > div > section.about-me > div {
 	background-color: #0000FF;
+	display: flex;
 }
 
 footer {
