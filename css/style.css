@@ -155,9 +155,20 @@ button {
 form {
 	display: flex;
 	flex-direction: column;
+	width: 75%;
+	height: 75%;
+	align-self: center;
 }
 
 /**************h2 element above form**************/
 body > div > section:nth-child(5) > div > div > h2 {
 	color: #0EFF00;
+}
+
+.form-wrapper div {
+	display: flex;
+}
+
+body > div > section:nth-child(4) > div {
+	padding-bottom: 7.25%;
 }
