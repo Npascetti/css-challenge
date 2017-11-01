@@ -63,12 +63,20 @@ body { width: 100%;}
 ******************************************************/
 header {
 	color: #00FF00;
-	text-align: center;
 	background-color: #333333;
 }
 
+em {
+	position:relative;
+	right: 12.5%;
+	vertical-align: sub;
+}
+
 h1 {
-	display: inline;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	right: 12.5%;
 }
 
 ol {
