@@ -78,7 +78,6 @@ h1 {
 	position: relative;
 	right: 12.5%;
 }
-
 ol {
 	list-style-position:inside
 }
@@ -146,4 +145,19 @@ label {
 
 button {
 	background-color: #0EFF00;
+}
+
+.form-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+/**************h2 element above form**************/
+body > div > section:nth-child(5) > div > div > h2 {
+	color: #0EFF00;
 }
