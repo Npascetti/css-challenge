@@ -1,0 +1,187 @@
+/*****************************************************
+* CSS Mockup Activity - Custom CSS Stylesheet
+* @author rlewis37
+*
+* Some rules have been included here to give you a head start.
+* Create your own custom CSS rules below. Have fun!
+******************************************************/
+html, body {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* create a responsive container */
+@media only screen and (min-width: 1200px) {
+	.container { width: 1170px; }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container { width: 970px; }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container { width: 750px; }
+}
+
+/*****************************************************
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+******************************************************/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+/*****************************************************
+* ADD YOUR OWN CSS BELOW! (ï¾‰â—•ãƒ®â—•)ï¾‰*:ï½¥ï¾Ÿâœ§
+*
+* HINT: You might want to be conversant with the following:
+* * Shorthand syntax for padding, margin, and borders
+* * Display property and values... and the differences between them.
+* * The Box Model
+* * Pseudo Classes
+* * Attribute Selectors
+******************************************************/
+
+/******GLOBAL STYLES*****/
+body {
+	font-family: monospace;
+}
+
+
+/*******ABOUT SECTION*****/
+.about-me {
+	background-color: blue;
+	color: #fff;
+}
+
+section.about-me span {
+	color: yellow;
+	font-style: italic;
+	font-weight: bold;
+}
+
+section:last-child {
+	background-color: #333;
+}
+
+.form-wrapper {
+	background-color: darkgreen;
+	padding: 2rem;
+}
+
+footer {
+	background-color: #000;
+	color: white;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+
+/******HEADER STYLES*****/
+header {
+	background-color: #333;
+	color: lime;
+}
+
+header h1 {
+	display: inline-block;
+	font-size: 3rem;
+	margin-right: 2rem;
+}
+
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.instructions-wrapper {
+	border: 5px solid black;
+
+}
+
+
+.instructions-content {
+	width: 60%;
+	float: left;
+}
+
+img[alt="captain janeway"] {
+	float: right;
+	height: 25%;
+	width: 25%;
+	padding: 2em;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+}
+
+.about-me img {
+	width: 300px;
+	border: 5px solid;
+	float: left;
+	margin-right: 2rem;
+}
+
+section:nth-child(4) h2 {
+	text-align: right;
+	margin-top: 0;
+}
+
+td, th {
+	background-color: #333;
+	padding: 1rem;
+}
+
+table {
+	color: lime;
+	text-align: left;
+	width: 100%;
+}
+
+label {
+	display: block;
+	margin: 1rem 0 0.5rem 0;
+}
+
+input, textarea {
+	width: 40%;
+	padding: 0.5rem;
+}
+
+button {
+	background-color: lime;
+	border: none;
+	padding: 0.5rem 2rem;
+	margin-top: 1rem;
+	font-weight: bold;
+}
+
+.form-wrapper h2 {
+	margin-top: 0;
+}
+
+section {
+	padding: 4rem 0 4rem 0;
+}
